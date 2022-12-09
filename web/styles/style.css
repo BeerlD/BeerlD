@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #2F515C;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    cursor: url("http://www.rw-designer.com/cursor-extern.php?id=3840"), default;
+    display: flex;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    display: inline-flex;
+}
+
+header > img {
+    background-color: white;
+}
+
+header > div#headerButtons {
+    margin: auto;
+    text-align: center;
+}
+
+header > div#headerButtons > button {
+    color: white;
+    background-color: #2F515C;
+    padding: 8px;
+    border-radius: 10%;
+}
+
+main > div#content {
+    padding: 50px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+span#staticsGraphic {
+    border: 2px black solid;
+    border-radius: 50%;
+}
+
+div#menu {
+    background-color: gray;
+}
